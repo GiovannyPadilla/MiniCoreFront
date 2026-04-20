@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:8080";
+const API = "https://minicoreback-1.onrender.com";
 
 const fmt = (v) =>
     new Intl.NumberFormat("es-EC", { style: "currency", currency: "USD" }).format(v);
